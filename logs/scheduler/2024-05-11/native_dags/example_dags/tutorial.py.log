@@ -1,0 +1,71 @@
+[2024-05-11T12:35:12.324+0000] {processor.py:153} INFO - Started process (PID=82) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-05-11T12:35:12.330+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-11T12:35:12.334+0000] {logging_mixin.py:137} INFO - [2024-05-11T12:35:12.334+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-05-11T12:35:12.376+0000] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-05-11T12:35:12.779+0000] {logging_mixin.py:137} INFO - [2024-05-11T12:35:12.779+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:tutorial
+[2024-05-11T12:35:12.852+0000] {logging_mixin.py:137} INFO - [2024-05-11T12:35:12.852+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:tutorial
+[2024-05-11T12:35:12.925+0000] {logging_mixin.py:137} INFO - [2024-05-11T12:35:12.925+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:tutorial
+[2024-05-11T12:35:12.929+0000] {logging_mixin.py:137} INFO - [2024-05-11T12:35:12.929+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-11T12:35:12.977+0000] {logging_mixin.py:137} INFO - [2024-05-11T12:35:12.976+0000] {dag.py:2711} INFO - Creating ORM DAG for tutorial
+[2024-05-11T12:35:13.025+0000] {logging_mixin.py:137} INFO - [2024-05-11T12:35:13.024+0000] {dag.py:3441} INFO - Setting next_dagrun for tutorial to 2024-05-10T12:35:13.023981+00:00, run_after=2024-05-11T12:35:13.023981+00:00
+[2024-05-11T12:35:13.080+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.764 seconds
+[2024-05-11T12:35:47.308+0000] {processor.py:153} INFO - Started process (PID=154) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-05-11T12:35:47.341+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-11T12:35:47.365+0000] {logging_mixin.py:137} INFO - [2024-05-11T12:35:47.364+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-05-11T12:35:47.642+0000] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-05-11T12:35:47.889+0000] {logging_mixin.py:137} INFO - [2024-05-11T12:35:47.888+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-11T12:35:48.092+0000] {logging_mixin.py:137} INFO - [2024-05-11T12:35:48.091+0000] {dag.py:3441} INFO - Setting next_dagrun for tutorial to 2024-05-10T12:35:48.091182+00:00, run_after=2024-05-11T12:35:48.091182+00:00
+[2024-05-11T12:35:48.279+0000] {processor.py:175} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.992 seconds
+[2024-05-11T12:36:19.317+0000] {processor.py:153} INFO - Started process (PID=216) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-05-11T12:36:19.341+0000] {processor.py:743} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-11T12:36:19.358+0000] {logging_mixin.py:137} INFO - [2024-05-11T12:36:19.358+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-05-11T12:36:19.474+0000] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-05-11T12:36:19.603+0000] {logging_mixin.py:137} INFO - [2024-05-11T12:36:19.602+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-11T12:36:19.683+0000] {logging_mixin.py:137} INFO - [2024-05-11T12:36:19.683+0000] {dag.py:3441} INFO - Setting next_dagrun for tutorial to 2024-05-10T12:36:19.682717+00:00, run_after=2024-05-11T12:36:19.682717+00:00
+[2024-05-11T12:36:41.513+0000] {processor.py:178} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1089, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 686, in do_commit
+    dbapi_connection.commit()
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 174, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 158, in _handle_dag_file_processing
+    callback_requests=callback_requests,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 75, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 769, in process_file
+    session.commit()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1451, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 836, in commit
+    trans.commit()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2459, in commit
+    self._do_commit()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2649, in _do_commit
+    self._connection_commit_impl()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2620, in _connection_commit_impl
+    self.connection._commit_impl()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1091, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2125, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1089, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 686, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
