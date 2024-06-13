@@ -1317,3 +1317,213 @@ SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in positio
 [2024-05-12T17:51:02.991+0000] {logging_mixin.py:137} INFO - [2024-05-12T17:51:02.898+0000] {dag.py:2690} INFO - Sync 1 DAGs
 [2024-05-12T17:51:04.485+0000] {logging_mixin.py:137} INFO - [2024-05-12T17:51:04.485+0000] {dag.py:3441} INFO - Setting next_dagrun for mlops_A2_dag to 2024-05-12T17:27:34.109181+00:00, run_after=2024-05-13T17:27:34.109181+00:00
 [2024-05-12T17:51:05.567+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main.py took 13.025 seconds
+[2024-05-12T17:53:32.143+0000] {processor.py:153} INFO - Started process (PID=1990) to work on /opt/airflow/dags/main.py
+[2024-05-12T17:53:32.189+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-05-12T17:53:32.205+0000] {logging_mixin.py:137} INFO - [2024-05-12T17:53:32.205+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-05-12T17:53:44.063+0000] {processor.py:753} INFO - DAG(s) dict_keys(['mlops_A2_dag']) retrieved from /opt/airflow/dags/main.py
+[2024-05-12T17:53:45.999+0000] {logging_mixin.py:137} INFO - [2024-05-12T17:53:45.997+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-12T17:53:47.435+0000] {logging_mixin.py:137} INFO - [2024-05-12T17:53:47.435+0000] {dag.py:3441} INFO - Setting next_dagrun for mlops_A2_dag to 2024-05-12T17:27:34.109181+00:00, run_after=2024-05-13T17:27:34.109181+00:00
+[2024-05-12T17:53:49.135+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main.py took 17.210 seconds
+[2024-05-12T17:56:47.460+0000] {processor.py:153} INFO - Started process (PID=2123) to work on /opt/airflow/dags/main.py
+[2024-05-12T17:56:47.553+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-05-12T17:56:47.560+0000] {logging_mixin.py:137} INFO - [2024-05-12T17:56:47.560+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-05-12T17:56:55.080+0000] {processor.py:753} INFO - DAG(s) dict_keys(['mlops_A2_dag']) retrieved from /opt/airflow/dags/main.py
+[2024-05-12T17:56:55.795+0000] {logging_mixin.py:137} INFO - [2024-05-12T17:56:55.794+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-12T17:56:57.514+0000] {logging_mixin.py:137} INFO - [2024-05-12T17:56:57.513+0000] {dag.py:3441} INFO - Setting next_dagrun for mlops_A2_dag to 2024-05-12T17:27:34.109181+00:00, run_after=2024-05-13T17:27:34.109181+00:00
+[2024-05-12T17:56:58.166+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main.py took 10.881 seconds
+[2024-05-12T17:57:57.939+0000] {processor.py:153} INFO - Started process (PID=2205) to work on /opt/airflow/dags/main.py
+[2024-05-12T17:57:57.951+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-05-12T17:57:57.962+0000] {logging_mixin.py:137} INFO - [2024-05-12T17:57:57.961+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-05-12T17:57:59.485+0000] {processor.py:753} INFO - DAG(s) dict_keys(['mlops_A2_dag']) retrieved from /opt/airflow/dags/main.py
+[2024-05-12T17:57:59.596+0000] {logging_mixin.py:137} INFO - [2024-05-12T17:57:59.595+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-12T17:58:00.273+0000] {logging_mixin.py:137} INFO - [2024-05-12T17:58:00.272+0000] {dag.py:3441} INFO - Setting next_dagrun for mlops_A2_dag to 2024-05-12T17:27:34.109181+00:00, run_after=2024-05-13T17:27:34.109181+00:00
+[2024-05-12T17:58:00.504+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main.py took 2.577 seconds
+[2024-05-12T17:58:31.348+0000] {processor.py:153} INFO - Started process (PID=2270) to work on /opt/airflow/dags/main.py
+[2024-05-12T17:58:31.364+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-05-12T17:58:31.381+0000] {logging_mixin.py:137} INFO - [2024-05-12T17:58:31.381+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-05-12T17:58:33.188+0000] {processor.py:753} INFO - DAG(s) dict_keys(['mlops_A2_dag']) retrieved from /opt/airflow/dags/main.py
+[2024-05-12T17:58:33.268+0000] {logging_mixin.py:137} INFO - [2024-05-12T17:58:33.267+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-12T17:58:33.364+0000] {logging_mixin.py:137} INFO - [2024-05-12T17:58:33.363+0000] {dag.py:3441} INFO - Setting next_dagrun for mlops_A2_dag to 2024-05-12T17:27:34.109181+00:00, run_after=2024-05-13T17:27:34.109181+00:00
+[2024-05-12T17:58:33.444+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main.py took 2.115 seconds
+[2024-05-12T17:59:04.084+0000] {processor.py:153} INFO - Started process (PID=2338) to work on /opt/airflow/dags/main.py
+[2024-05-12T17:59:04.086+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-05-12T17:59:04.088+0000] {logging_mixin.py:137} INFO - [2024-05-12T17:59:04.088+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-05-12T17:59:04.450+0000] {processor.py:753} INFO - DAG(s) dict_keys(['mlops_A2_dag']) retrieved from /opt/airflow/dags/main.py
+[2024-05-12T17:59:04.558+0000] {logging_mixin.py:137} INFO - [2024-05-12T17:59:04.557+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-12T17:59:04.707+0000] {logging_mixin.py:137} INFO - [2024-05-12T17:59:04.706+0000] {dag.py:3441} INFO - Setting next_dagrun for mlops_A2_dag to 2024-05-12T17:27:34.109181+00:00, run_after=2024-05-13T17:27:34.109181+00:00
+[2024-05-12T17:59:04.877+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main.py took 0.807 seconds
+[2024-05-12T17:59:35.020+0000] {processor.py:153} INFO - Started process (PID=2400) to work on /opt/airflow/dags/main.py
+[2024-05-12T17:59:35.021+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-05-12T17:59:35.023+0000] {logging_mixin.py:137} INFO - [2024-05-12T17:59:35.023+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-05-12T17:59:35.348+0000] {processor.py:753} INFO - DAG(s) dict_keys(['mlops_A2_dag']) retrieved from /opt/airflow/dags/main.py
+[2024-05-12T17:59:35.417+0000] {logging_mixin.py:137} INFO - [2024-05-12T17:59:35.416+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-12T17:59:35.475+0000] {logging_mixin.py:137} INFO - [2024-05-12T17:59:35.475+0000] {dag.py:3441} INFO - Setting next_dagrun for mlops_A2_dag to 2024-05-12T17:27:34.109181+00:00, run_after=2024-05-13T17:27:34.109181+00:00
+[2024-05-12T17:59:35.524+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main.py took 0.515 seconds
+[2024-05-12T18:00:05.741+0000] {processor.py:153} INFO - Started process (PID=2455) to work on /opt/airflow/dags/main.py
+[2024-05-12T18:00:05.745+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-05-12T18:00:05.748+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:00:05.748+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-05-12T18:00:06.385+0000] {processor.py:753} INFO - DAG(s) dict_keys(['mlops_A2_dag']) retrieved from /opt/airflow/dags/main.py
+[2024-05-12T18:00:06.459+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:00:06.458+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-12T18:00:06.539+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:00:06.539+0000] {dag.py:3441} INFO - Setting next_dagrun for mlops_A2_dag to 2024-05-12T17:27:34.109181+00:00, run_after=2024-05-13T17:27:34.109181+00:00
+[2024-05-12T18:00:06.607+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main.py took 0.884 seconds
+[2024-05-12T18:00:36.780+0000] {processor.py:153} INFO - Started process (PID=2520) to work on /opt/airflow/dags/main.py
+[2024-05-12T18:00:36.782+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-05-12T18:00:36.785+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:00:36.784+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-05-12T18:00:37.492+0000] {processor.py:753} INFO - DAG(s) dict_keys(['mlops_A2_dag']) retrieved from /opt/airflow/dags/main.py
+[2024-05-12T18:00:37.586+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:00:37.585+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-12T18:00:37.777+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:00:37.777+0000] {dag.py:3441} INFO - Setting next_dagrun for mlops_A2_dag to 2024-05-12T17:27:34.109181+00:00, run_after=2024-05-13T17:27:34.109181+00:00
+[2024-05-12T18:00:37.826+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main.py took 1.055 seconds
+[2024-05-12T18:01:08.450+0000] {processor.py:153} INFO - Started process (PID=2584) to work on /opt/airflow/dags/main.py
+[2024-05-12T18:01:08.451+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-05-12T18:01:08.454+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:01:08.453+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-05-12T18:01:08.774+0000] {processor.py:753} INFO - DAG(s) dict_keys(['mlops_A2_dag']) retrieved from /opt/airflow/dags/main.py
+[2024-05-12T18:01:08.816+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:01:08.815+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-12T18:01:08.863+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:01:08.863+0000] {dag.py:3441} INFO - Setting next_dagrun for mlops_A2_dag to 2024-05-12T17:27:34.109181+00:00, run_after=2024-05-13T17:27:34.109181+00:00
+[2024-05-12T18:01:08.899+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main.py took 0.461 seconds
+[2024-05-12T18:01:39.074+0000] {processor.py:153} INFO - Started process (PID=2649) to work on /opt/airflow/dags/main.py
+[2024-05-12T18:01:39.076+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-05-12T18:01:39.078+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:01:39.077+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-05-12T18:01:39.617+0000] {processor.py:753} INFO - DAG(s) dict_keys(['mlops_A2_dag']) retrieved from /opt/airflow/dags/main.py
+[2024-05-12T18:01:39.700+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:01:39.699+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-12T18:01:39.759+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:01:39.759+0000] {dag.py:3441} INFO - Setting next_dagrun for mlops_A2_dag to 2024-05-12T17:27:34.109181+00:00, run_after=2024-05-13T17:27:34.109181+00:00
+[2024-05-12T18:01:39.813+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main.py took 0.748 seconds
+[2024-05-12T18:02:10.794+0000] {processor.py:153} INFO - Started process (PID=2713) to work on /opt/airflow/dags/main.py
+[2024-05-12T18:02:10.797+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-05-12T18:02:10.800+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:02:10.799+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-05-12T18:02:11.181+0000] {processor.py:753} INFO - DAG(s) dict_keys(['mlops_A2_dag']) retrieved from /opt/airflow/dags/main.py
+[2024-05-12T18:02:11.227+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:02:11.226+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-12T18:02:11.317+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:02:11.316+0000] {dag.py:3441} INFO - Setting next_dagrun for mlops_A2_dag to 2024-05-12T17:27:34.109181+00:00, run_after=2024-05-13T17:27:34.109181+00:00
+[2024-05-12T18:02:11.374+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main.py took 0.591 seconds
+[2024-05-12T18:02:42.104+0000] {processor.py:153} INFO - Started process (PID=2765) to work on /opt/airflow/dags/main.py
+[2024-05-12T18:02:42.106+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-05-12T18:02:42.109+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:02:42.108+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-05-12T18:02:42.461+0000] {processor.py:753} INFO - DAG(s) dict_keys(['mlops_A2_dag']) retrieved from /opt/airflow/dags/main.py
+[2024-05-12T18:02:42.575+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:02:42.574+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-12T18:02:42.705+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:02:42.704+0000] {dag.py:3441} INFO - Setting next_dagrun for mlops_A2_dag to 2024-05-12T17:27:34.109181+00:00, run_after=2024-05-13T17:27:34.109181+00:00
+[2024-05-12T18:02:42.824+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main.py took 0.738 seconds
+[2024-05-12T18:03:12.933+0000] {processor.py:153} INFO - Started process (PID=2828) to work on /opt/airflow/dags/main.py
+[2024-05-12T18:03:12.935+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-05-12T18:03:12.937+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:03:12.936+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-05-12T18:03:13.229+0000] {processor.py:753} INFO - DAG(s) dict_keys(['mlops_A2_dag']) retrieved from /opt/airflow/dags/main.py
+[2024-05-12T18:03:13.291+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:03:13.290+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-12T18:03:13.350+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:03:13.350+0000] {dag.py:3441} INFO - Setting next_dagrun for mlops_A2_dag to 2024-05-12T17:27:34.109181+00:00, run_after=2024-05-13T17:27:34.109181+00:00
+[2024-05-12T18:03:13.396+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main.py took 0.472 seconds
+[2024-05-12T18:03:45.483+0000] {processor.py:153} INFO - Started process (PID=2889) to work on /opt/airflow/dags/main.py
+[2024-05-12T18:03:45.488+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-05-12T18:03:45.495+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:03:45.495+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-05-12T18:03:47.123+0000] {processor.py:753} INFO - DAG(s) dict_keys(['mlops_A2_dag']) retrieved from /opt/airflow/dags/main.py
+[2024-05-12T18:03:47.528+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:03:47.527+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-12T18:03:47.875+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:03:47.848+0000] {dag.py:3441} INFO - Setting next_dagrun for mlops_A2_dag to 2024-05-12T17:27:34.109181+00:00, run_after=2024-05-13T17:27:34.109181+00:00
+[2024-05-12T18:03:48.164+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main.py took 2.716 seconds
+[2024-05-12T18:04:18.482+0000] {processor.py:153} INFO - Started process (PID=2953) to work on /opt/airflow/dags/main.py
+[2024-05-12T18:04:18.487+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-05-12T18:04:18.491+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:04:18.490+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-05-12T18:04:19.498+0000] {processor.py:753} INFO - DAG(s) dict_keys(['mlops_A2_dag']) retrieved from /opt/airflow/dags/main.py
+[2024-05-12T18:04:19.760+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:04:19.759+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-12T18:04:19.944+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:04:19.944+0000] {dag.py:3441} INFO - Setting next_dagrun for mlops_A2_dag to 2024-05-12T17:27:34.109181+00:00, run_after=2024-05-13T17:27:34.109181+00:00
+[2024-05-12T18:04:20.112+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main.py took 1.660 seconds
+[2024-05-12T18:04:50.656+0000] {processor.py:153} INFO - Started process (PID=3008) to work on /opt/airflow/dags/main.py
+[2024-05-12T18:04:50.658+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-05-12T18:04:50.663+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:04:50.662+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-05-12T18:04:51.267+0000] {processor.py:753} INFO - DAG(s) dict_keys(['mlops_A2_dag']) retrieved from /opt/airflow/dags/main.py
+[2024-05-12T18:04:51.360+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:04:51.359+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-12T18:04:51.474+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:04:51.474+0000] {dag.py:3441} INFO - Setting next_dagrun for mlops_A2_dag to 2024-05-12T17:27:34.109181+00:00, run_after=2024-05-13T17:27:34.109181+00:00
+[2024-05-12T18:04:51.559+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main.py took 0.915 seconds
+[2024-05-12T18:05:21.775+0000] {processor.py:153} INFO - Started process (PID=3073) to work on /opt/airflow/dags/main.py
+[2024-05-12T18:05:21.776+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-05-12T18:05:21.779+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:05:21.779+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-05-12T18:05:22.323+0000] {processor.py:753} INFO - DAG(s) dict_keys(['mlops_A2_dag']) retrieved from /opt/airflow/dags/main.py
+[2024-05-12T18:05:22.458+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:05:22.456+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-12T18:05:22.663+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:05:22.663+0000] {dag.py:3441} INFO - Setting next_dagrun for mlops_A2_dag to 2024-05-12T17:27:34.109181+00:00, run_after=2024-05-13T17:27:34.109181+00:00
+[2024-05-12T18:05:22.954+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main.py took 1.192 seconds
+[2024-05-12T18:05:53.924+0000] {processor.py:153} INFO - Started process (PID=3139) to work on /opt/airflow/dags/main.py
+[2024-05-12T18:05:53.925+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-05-12T18:05:53.927+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:05:53.927+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-05-12T18:05:54.399+0000] {processor.py:753} INFO - DAG(s) dict_keys(['mlops_A2_dag']) retrieved from /opt/airflow/dags/main.py
+[2024-05-12T18:05:54.474+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:05:54.473+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-12T18:05:54.549+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:05:54.549+0000] {dag.py:3441} INFO - Setting next_dagrun for mlops_A2_dag to 2024-05-12T17:27:34.109181+00:00, run_after=2024-05-13T17:27:34.109181+00:00
+[2024-05-12T18:05:54.719+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main.py took 0.814 seconds
+[2024-05-12T18:06:25.030+0000] {processor.py:153} INFO - Started process (PID=3204) to work on /opt/airflow/dags/main.py
+[2024-05-12T18:06:25.031+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-05-12T18:06:25.033+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:06:25.033+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-05-12T18:06:25.755+0000] {processor.py:753} INFO - DAG(s) dict_keys(['mlops_A2_dag']) retrieved from /opt/airflow/dags/main.py
+[2024-05-12T18:06:25.849+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:06:25.848+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-12T18:06:25.930+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:06:25.930+0000] {dag.py:3441} INFO - Setting next_dagrun for mlops_A2_dag to 2024-05-12T17:27:34.109181+00:00, run_after=2024-05-13T17:27:34.109181+00:00
+[2024-05-12T18:06:25.998+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main.py took 0.979 seconds
+[2024-05-12T18:06:56.522+0000] {processor.py:153} INFO - Started process (PID=3265) to work on /opt/airflow/dags/main.py
+[2024-05-12T18:06:56.541+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-05-12T18:06:56.568+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:06:56.567+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-05-12T18:06:57.324+0000] {processor.py:753} INFO - DAG(s) dict_keys(['mlops_A2_dag']) retrieved from /opt/airflow/dags/main.py
+[2024-05-12T18:06:57.417+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:06:57.416+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-12T18:06:57.505+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:06:57.505+0000] {dag.py:3441} INFO - Setting next_dagrun for mlops_A2_dag to 2024-05-12T17:27:34.109181+00:00, run_after=2024-05-13T17:27:34.109181+00:00
+[2024-05-12T18:06:57.620+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main.py took 1.159 seconds
+[2024-05-12T18:07:28.770+0000] {processor.py:153} INFO - Started process (PID=3321) to work on /opt/airflow/dags/main.py
+[2024-05-12T18:07:28.776+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-05-12T18:07:28.781+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:07:28.780+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-05-12T18:07:29.612+0000] {processor.py:753} INFO - DAG(s) dict_keys(['mlops_A2_dag']) retrieved from /opt/airflow/dags/main.py
+[2024-05-12T18:07:29.797+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:07:29.794+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-12T18:07:30.079+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:07:30.078+0000] {dag.py:3441} INFO - Setting next_dagrun for mlops_A2_dag to 2024-05-12T17:27:34.109181+00:00, run_after=2024-05-13T17:27:34.109181+00:00
+[2024-05-12T18:07:30.231+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main.py took 1.492 seconds
+[2024-05-12T18:08:03.370+0000] {processor.py:153} INFO - Started process (PID=3383) to work on /opt/airflow/dags/main.py
+[2024-05-12T18:08:03.397+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-05-12T18:08:03.399+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:08:03.399+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-05-12T18:08:04.123+0000] {processor.py:753} INFO - DAG(s) dict_keys(['mlops_A2_dag']) retrieved from /opt/airflow/dags/main.py
+[2024-05-12T18:08:04.238+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:08:04.237+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-12T18:08:04.375+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:08:04.375+0000] {dag.py:3441} INFO - Setting next_dagrun for mlops_A2_dag to 2024-05-12T17:27:34.109181+00:00, run_after=2024-05-13T17:27:34.109181+00:00
+[2024-05-12T18:08:04.557+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main.py took 1.206 seconds
+[2024-05-12T18:08:44.109+0000] {processor.py:153} INFO - Started process (PID=3426) to work on /opt/airflow/dags/main.py
+[2024-05-12T18:08:44.117+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-05-12T18:08:44.139+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:08:44.139+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-05-12T18:08:47.164+0000] {processor.py:753} INFO - DAG(s) dict_keys(['mlops_A2_dag']) retrieved from /opt/airflow/dags/main.py
+[2024-05-12T18:08:47.454+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:08:47.452+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-12T18:08:48.033+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:08:48.033+0000] {dag.py:3441} INFO - Setting next_dagrun for mlops_A2_dag to 2024-05-12T17:27:34.109181+00:00, run_after=2024-05-13T17:27:34.109181+00:00
+[2024-05-12T18:08:48.380+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main.py took 4.164 seconds
+[2024-05-12T18:10:08.567+0000] {processor.py:153} INFO - Started process (PID=3503) to work on /opt/airflow/dags/main.py
+[2024-05-12T18:10:08.581+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-05-12T18:10:08.630+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:10:08.630+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-05-12T18:10:16.311+0000] {processor.py:753} INFO - DAG(s) dict_keys(['mlops_A2_dag']) retrieved from /opt/airflow/dags/main.py
+[2024-05-12T18:10:17.994+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:10:17.992+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-12T18:10:19.347+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:10:19.346+0000] {dag.py:3441} INFO - Setting next_dagrun for mlops_A2_dag to 2024-05-12T17:27:34.109181+00:00, run_after=2024-05-13T17:27:34.109181+00:00
+[2024-05-12T18:10:20.430+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main.py took 11.948 seconds
+[2024-05-12T18:11:39.843+0000] {processor.py:153} INFO - Started process (PID=3582) to work on /opt/airflow/dags/main.py
+[2024-05-12T18:11:39.852+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-05-12T18:11:39.897+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:11:39.897+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-05-12T18:11:43.478+0000] {processor.py:753} INFO - DAG(s) dict_keys(['mlops_A2_dag']) retrieved from /opt/airflow/dags/main.py
+[2024-05-12T18:11:44.092+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:11:44.091+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-12T18:11:44.568+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:11:44.567+0000] {dag.py:3441} INFO - Setting next_dagrun for mlops_A2_dag to 2024-05-12T17:27:34.109181+00:00, run_after=2024-05-13T17:27:34.109181+00:00
+[2024-05-12T18:11:45.082+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main.py took 5.393 seconds
+[2024-05-12T18:12:24.900+0000] {processor.py:153} INFO - Started process (PID=3652) to work on /opt/airflow/dags/main.py
+[2024-05-12T18:12:24.902+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-05-12T18:12:24.906+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:12:24.906+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-05-12T18:12:25.929+0000] {processor.py:753} INFO - DAG(s) dict_keys(['mlops_A2_dag']) retrieved from /opt/airflow/dags/main.py
+[2024-05-12T18:12:26.231+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:12:26.220+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-12T18:12:26.501+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:12:26.500+0000] {dag.py:3441} INFO - Setting next_dagrun for mlops_A2_dag to 2024-05-12T17:27:34.109181+00:00, run_after=2024-05-13T17:27:34.109181+00:00
+[2024-05-12T18:12:26.639+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main.py took 1.802 seconds
+[2024-05-12T18:12:57.318+0000] {processor.py:153} INFO - Started process (PID=3713) to work on /opt/airflow/dags/main.py
+[2024-05-12T18:12:57.345+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-05-12T18:12:57.381+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:12:57.354+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-05-12T18:12:58.974+0000] {processor.py:753} INFO - DAG(s) dict_keys(['mlops_A2_dag']) retrieved from /opt/airflow/dags/main.py
+[2024-05-12T18:12:59.146+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:12:59.145+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-12T18:12:59.454+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:12:59.454+0000] {dag.py:3441} INFO - Setting next_dagrun for mlops_A2_dag to 2024-05-12T17:27:34.109181+00:00, run_after=2024-05-13T17:27:34.109181+00:00
+[2024-05-12T18:12:59.577+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main.py took 2.308 seconds
+[2024-05-12T18:13:30.052+0000] {processor.py:153} INFO - Started process (PID=3769) to work on /opt/airflow/dags/main.py
+[2024-05-12T18:13:30.055+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-05-12T18:13:30.065+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:13:30.065+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-05-12T18:13:30.854+0000] {processor.py:753} INFO - DAG(s) dict_keys(['mlops_A2_dag']) retrieved from /opt/airflow/dags/main.py
+[2024-05-12T18:13:31.202+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:13:31.189+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-12T18:13:31.459+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:13:31.459+0000] {dag.py:3441} INFO - Setting next_dagrun for mlops_A2_dag to 2024-05-12T17:27:34.109181+00:00, run_after=2024-05-13T17:27:34.109181+00:00
+[2024-05-12T18:13:32.165+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main.py took 2.134 seconds
+[2024-05-12T18:14:19.780+0000] {processor.py:153} INFO - Started process (PID=3829) to work on /opt/airflow/dags/main.py
+[2024-05-12T18:14:20.004+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-05-12T18:14:20.132+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:14:20.131+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-05-12T18:14:29.170+0000] {processor.py:753} INFO - DAG(s) dict_keys(['mlops_A2_dag']) retrieved from /opt/airflow/dags/main.py
+[2024-05-12T18:14:29.743+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:14:29.715+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-12T18:14:30.693+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:14:30.693+0000] {dag.py:3441} INFO - Setting next_dagrun for mlops_A2_dag to 2024-05-12T17:27:34.109181+00:00, run_after=2024-05-13T17:27:34.109181+00:00
+[2024-05-12T18:14:31.984+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main.py took 12.242 seconds
+[2024-05-12T18:15:32.098+0000] {processor.py:153} INFO - Started process (PID=3894) to work on /opt/airflow/dags/main.py
+[2024-05-12T18:15:32.107+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-05-12T18:15:32.119+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:15:32.118+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-05-12T18:15:35.028+0000] {processor.py:753} INFO - DAG(s) dict_keys(['mlops_A2_dag']) retrieved from /opt/airflow/dags/main.py
+[2024-05-12T18:15:35.620+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:15:35.618+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-05-12T18:15:36.211+0000] {logging_mixin.py:137} INFO - [2024-05-12T18:15:36.211+0000] {dag.py:3441} INFO - Setting next_dagrun for mlops_A2_dag to 2024-05-12T17:27:34.109181+00:00, run_after=2024-05-13T17:27:34.109181+00:00
+[2024-05-12T18:15:36.882+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main.py took 4.880 seconds

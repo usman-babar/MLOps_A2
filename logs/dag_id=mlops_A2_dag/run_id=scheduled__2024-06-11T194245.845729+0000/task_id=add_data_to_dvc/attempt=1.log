@@ -1,0 +1,23 @@
+[2024-06-12T20:18:29.228+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: mlops_A2_dag.add_data_to_dvc scheduled__2024-06-11T19:42:45.845729+00:00 [queued]>
+[2024-06-12T20:18:29.653+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: mlops_A2_dag.add_data_to_dvc scheduled__2024-06-11T19:42:45.845729+00:00 [queued]>
+[2024-06-12T20:18:29.683+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-12T20:18:29.698+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 2
+[2024-06-12T20:18:29.714+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-12T20:18:30.395+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): add_data_to_dvc> on 2024-06-11 19:42:45.845729+00:00
+[2024-06-12T20:18:30.508+0000] {standard_task_runner.py:55} INFO - Started process 1381 to run task
+[2024-06-12T20:18:30.581+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'mlops_A2_dag', 'add_data_to_dvc', 'scheduled__2024-06-11T19:42:45.845729+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/main.py', '--cfg-path', '/tmp/tmp09yyonww']
+[2024-06-12T20:18:30.594+0000] {standard_task_runner.py:83} INFO - Job 21: Subtask add_data_to_dvc
+[2024-06-12T20:18:32.145+0000] {task_command.py:388} INFO - Running <TaskInstance: mlops_A2_dag.add_data_to_dvc scheduled__2024-06-11T19:42:45.845729+00:00 [running]> on host ed9328a79655
+[2024-06-12T20:18:34.476+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=mlops_A2_dag
+AIRFLOW_CTX_TASK_ID=add_data_to_dvc
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-11T19:42:45.845729+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-06-11T19:42:45.845729+00:00
+[2024-06-12T20:18:34.746+0000] {python.py:177} INFO - Done. Returned value was: None
+[2024-06-12T20:18:34.992+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=mlops_A2_dag, task_id=add_data_to_dvc, execution_date=20240611T194245, start_date=20240612T201829, end_date=20240612T201834
+[2024-06-12T20:18:35.479+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2024-06-12T20:18:36.575+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

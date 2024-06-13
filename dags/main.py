@@ -113,7 +113,8 @@ preprocess_data_task = PythonOperator(
 def setup_dvc():
     os.system('git init')
     os.system('dvc init')
-    os.system('dvc remote add -d gdrive gdrive://1aOUOyuPdZ6NMONKP_3B6lz4F1yji1mN2')
+    os.system('dvc remote add -d gdrive gdrive://1up5T6zOx0MOI3rlQZqKuibtFXLAxMNvz')
+    # os.system('dvc remote add -d gdrive gdrive://16LZL8gIRHmE-CBqebr5qZ7ACAAyqdhJO')
 
 def add_data_to_dvc():
     os.system('dvc add data\preprocessed_data.csv')
@@ -149,14 +150,9 @@ push_to_remote_task = PythonOperator(
     dag=dag
 )
 
-integrate_with_git_task = PythonOperator(
-    task_id='integrate_with_git',
-    python_callable=integrate_with_git,
-    dag=dag
-)
 
 # Task Dependencies
-extract_data_task >> preprocess_data_task >> setup_dvc_task >> add_data_to_dvc_task >> push_to_remote_task >> integrate_with_git_task
+extract_data_task >> preprocess_data_task >> setup_dvc_task >> add_data_to_dvc_task >> push_to_remote_task 
 
 ## command to set the admin for airflow 
 # docker-compose run airflow-worker airflow users create  --role Admin --username <your-username> --email <your-email> --firstname <your-firstname> --lastname <your-lastname> --password <your-password>
